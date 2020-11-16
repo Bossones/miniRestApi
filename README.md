@@ -45,6 +45,6 @@
     `sudo docker-compose up --build` \
 Начнется развертывание проекта. \
 Для проведения тестов необходимо в терминале ввести команду: \
-    `java -jar ./testing/target/testing-1.0-SNAPSHOT-jar-with-dependencies.jar` \
+    `java -jar ./testing/target/testing-1.0-SNAPSHOT-jar-with-dependencies.jar` 
 
 
