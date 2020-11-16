@@ -1,3 +1,0 @@
-FROM openjdk
-WORKDIR /rest
-EXPOSE 9090
