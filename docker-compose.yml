@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+    
+    static:
+        build: ./ether/
+        volumes:
+            - ./ether/nginx.conf:/etc/nginx/nginx.conf
+            - ./ether/in:/home/bossones
+        network_mode: host
+        ports:
+            - 80:80
+    mock:
+        build: ./rest/
+        volumes:
+            - ./rest/jarfiles:/rest
+        command: java -jar rest_api-0.0.1-SNAPSHOT.jar
+        ports:
+            - 9090:9090
+        depends_on:
+            - static
