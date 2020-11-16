@@ -1,6 +1,0 @@
-net/bossones/rest_api/service/ClientServiceImpl.class
-net/bossones/rest_api/responses/ClientResponse.class
-net/bossones/rest_api/RestApiApplication.class
-net/bossones/rest_api/service/ClientService.class
-net/bossones/rest_api/users/Client.class
-net/bossones/rest_api/controllers/ClientController.class
